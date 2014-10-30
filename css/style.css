@@ -1,0 +1,194 @@
+@font-face{
+    font-family: 'raleway100';
+    src: url('../fonts/Raleway/Raleway100.ttf');
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'raleway200';
+    src: url('../fonts/Raleway/Raleway200.ttf');
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'raleway300';
+    src: url('../fonts/Raleway/Raleway300.ttf');
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'raleway400';
+    src: url('../fonts/Raleway/Raleway400.ttf');
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'raleway500';
+    src: url('../fonts/Raleway/Raleway500.ttf');
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'raleway600';
+    src: url('../fonts/Raleway/Raleway600.ttf');
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'raleway700';
+    src: url('../fonts/Raleway/Raleway700.ttf');
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'raleway800';
+    src: url('../fonts/Raleway/Raleway800.ttf');
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'raleway900';
+    src: url('../fonts/Raleway/Raleway900.ttf');
+    font-style: normal;
+}
+
+*
+{
+    font-family: raleway400;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+body
+{
+    background: #efefef;
+}
+
+#yuri
+{
+    /*background: red;*/
+    text-align: center;
+    margin-top: 120px;
+    /*color: #53a8cf;*/
+    /*background: linear-gradient(
+      to right, 
+      #5a85c7,
+      #f9f27b
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+
+}
+
+ul, li
+{
+    list-style: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.container
+{
+    display: block;
+    width: 100%;
+}
+
+.justify
+{
+    width: auto;
+    margin: 0 auto;
+    /*background: linear-gradient(
+      to right, 
+      #5a85c7,
+      #f9f27b
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+}
+
+.display_name
+{
+    font-family: raleway500;
+    font-size: 80px;
+    color: #53a8cf;
+    margin: 0;
+}
+
+.skills li, .skills
+{
+    font-family: raleway200;
+    font-size: 24px;
+    color: #b6d6e4;
+    color: #aaa;
+}
+
+.skills li.separator
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: raleway100;
+}
+
+.hire
+{
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 72px;
+    font-family: raleway100;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #b6d6e4;
+    border: 1px solid #53a8cf;
+    color: #b6d6e4;
+    color: #53a8cf;
+    
+            border-radius: 10px;
+         -o-border-radius: 10px;
+       -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.hire:hover
+{
+    background: #53a8cf;
+    border: 1px solid #53a8cf;
+    color: white;
+}
+
+.social li a
+{
+    color: #ddd;
+    font-size: 36px;
+    margin: 0px 5px;
+}
+
+.social li a:hover
+{
+    color: #53a8cf;
+}
+
+.menu li a
+{
+    text-decoration: none;
+    color: #53a8cf;
+    font-family: raleway200;
+    margin: 0px 10px;
+}
+
+.menu
+{
+    display: block;
+    margin-top: 24px;
+    font-size: 24px;
+}
+
+.est
+{
+    font-family: raleway100;
+    color: #ccc;
+    margin-top: 48px;
+}
