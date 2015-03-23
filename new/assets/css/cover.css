@@ -357,10 +357,11 @@ span.description a {
 }
 
 .section#cv .section-title ul li .title {
-  color: #444;
+  color: #aaa;
 }
 .section#cv .section-title ul li .content {
-  color: #ddd;
+  color: #444;
+  font-family: proxima-regular
 }
 
 
@@ -368,3 +369,134 @@ span.description a {
   /*padding: 5px;*/
 }
 
+.btn {
+  border: 1px solid #ddd;
+  border-radius: 100px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+#works .section-title a.dribbble {
+  color: #EA4C89;
+  border: 1px solid #EA4C89;
+}
+#works .section-title a.dribbble:hover {
+  background: #EA4C89;
+  color: white;
+}
+
+#works .section-title a.behance {
+  color: #1769FF;
+  border: 1px solid #1769FF;
+}
+#works .section-title a.behance:hover {
+  background: #1769FF;
+  color: white;
+}
+
+#works .section-title a.github { 
+  color: #171515;
+  border: 1px solid #171515;
+}
+#works .section-title a.github:hover {
+  background: #171515;
+  color: white;
+}
+
+#blog .meta {
+  color: #aaa;
+  font-size: 18px;
+  font-family: proxima-light;
+}
+
+#blog .title {
+  font-size: 18px;
+  color: #111;
+  font-family: proxima-bold;
+}
+
+#blog .content {
+  font-size: 15px;
+  margin-top: 5px;
+  color: #444;
+  line-height: 24px;
+}
+
+#blog ul li {
+  margin-bottom: 20px;
+}
+
+#cv a {
+  color: #5fa8e2;
+  text-decoration: none;
+}
+
+#cv a:hover {
+  text-decoration: underline;
+}
+
+
+.section-title a.btn-yuri {
+  color: #5fa8e2;
+  border: 1px solid #5fa8e2;
+}
+.section-title a.btn-yuri:hover {
+  background: #5fa8e2;
+  color: white;
+}
+
+.section-title a.medium {
+  color: #1A1919;
+  border: 1px solid #1A1919;
+}
+.section-title a.medium:hover {
+  background: #1A1919;
+  color: white;
+}
+
+.section-title a.facebook {
+  color: #3B5998;
+  border: 1px solid #3B5998;
+}
+.section-title a.facebook:hover {
+  background: #3B5998;
+  color: white;
+}
+
+.section-title a.twitter {
+  color: #55ACEE;
+  border: 1px solid #55ACEE;
+}
+.section-title a.twitter:hover {
+  background: #55ACEE;
+  color: white;
+}
+
+.section-title a.skype {
+  color: #00AFF0;
+  border: 1px solid #00AFF0;
+}
+.section-title a.skype:hover {
+  background: #00AFF0;
+  color: white;
+}
+
+#git  {
+  position: relative;
+}
+#git .copyright {
+  /*position: absolute;*/
+  /*bottom: 0;*/
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-top: 180px;
+}
+
+#git .copyright span {
+  display: block;
+  font-family: proxima-light;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #444;
+}

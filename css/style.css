@@ -38,6 +38,9 @@
 *
 {
     font-family: proxima-regular;
+    -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
     /*transition: all 0.5s ease;*/
     /*-moz-transition: all 0.5s ease;*/
     /*-o-transition: all 0.5s ease;*/
@@ -51,13 +54,16 @@ body {
 
 .intro {
     height: 100vh;
+    min-height: 100%;
     width: 100%;
+    top: 0;
+  left: 0;
     background: url('../images/bg.jpg') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: relative;
+    /*position: relative;*/
     /*position: absolute;*/
     /*top: 50%;*/
     /*left: 0;*/
