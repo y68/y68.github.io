@@ -19,6 +19,10 @@ a:hover {
   border: 1px solid #fff;
 }
 
+.btn {
+  white-space: normal;
+}
+
 
 /*
  * Base structure
@@ -158,7 +162,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 960px;
+    width: 1080px;
   }
 }
 
@@ -214,11 +218,16 @@ body {
 }
 
 body {
-  background: url('../images/bg-cover.jpg') no-repeat center center; 
+  background: url('https://dl.dropboxusercontent.com/s/qico9s1b6npyr0n/cover-bg.jpg?dl=0') no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  /*background-position: fixed center;*/
+}
+
+.fit-left {
+  padding-left: 0px;
 }
 
 .align-right {
@@ -233,7 +242,7 @@ span.introduction {
   font-size: 20px;
   /*letter-spacing: 0.1em;*/
   font-family: proxima-light;
-  color: #aaa;
+  color: rgba(255,255,255,0.8);
 }
 
 span.introduction strong {
@@ -247,11 +256,13 @@ span.introduction strong {
 }
 
 span.description {
-  font-size: 16px;
-  font-family: proxima-regular;
+  font-size: 18px;
+  font-family: proxima-light;
   /*letter-spacing: 0.1em;*/
   line-height: 24px;
-  color: #999;
+  /*color: #999;*/
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 24px;
   /*opacity: 0.5;*/
 }
 
@@ -263,6 +274,9 @@ span.description a {
 .mastfoot {
   font-size: 10px;
   font-family: proxima-light;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: right;
 }
 
 .intro {
@@ -281,6 +295,88 @@ span.description a {
   margin-left: 15px;
 }
 
+.intro nav ul {
+  padding: 0;
+}
+.intro nav ul li {
+  display: inline;
+  margin-right: 5px;
+  /*padding-right: 10px;*/
+}
+
+.intro nav ul li:last-child {
+  margin-right: 0px;
+}
+
+.intro nav ul li a {
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 10px;
+}
+
+.intro nav ul li a:hover {
+  text-decoration: none;
+  border-bottom: 1px dotted white;
+}
+
+.intro nav ul li:after {
+  /*content: "•";*/
+}
+
+.intro nav ul li:last-child:after {
+  content: "";
+}
+
+.intro nav ul li.separator {
+  opacity: 0.5;
+}
+
+
+.intro .logo img {
+  width: 93px;
+  opacity: 0.9;
+  margin-top: 10px;
+  margin-left: 24px
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .intro .logo img {
+    display: none;
+  }
+  .intro nav ul li {
+  /*content: "•";*/
+    display: block;
+  }
+  .intro nav ul li.separator {
+    display: none;
+  }
+  .intro {
+    text-align: left;
+  }
+  .mastfoot p span{
+    margin-bottom: 0px;
+  }
+  .mobile {
+    display: block;
+  }
+  .mastfoot {
+    text-align: left;
+    padding-left: 8px;
+  }
+}
+
+@media (min-width: 481px) {
+  .intro {
+    text-align: right;
+  }
+}
+
+
 #works {
   /*padding: 100px;*/
 }
@@ -291,14 +387,26 @@ span.description a {
   padding: 0;
   color: black;
   text-shadow: none;
-  font-size: 24px;
+  font-size: 20px;
   font-family: proxima-light;
-  color: #444;
+  /*font-famiy: "Proxima Nova Light";*/
+  color: #ddd;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  /*text-shadow: 3px 3px #ccc;*/
 }
 
 .section {
   padding: 100px 0px;
 }
+
+@media (max-width: 480px) {
+  .section {
+    padding: 40px 10px;
+  }
+}
+
 
 #works {
   /*background: white;*/
@@ -407,6 +515,7 @@ span.description a {
   color: #aaa;
   font-size: 18px;
   font-family: proxima-light;
+  text-align: right;
 }
 
 #blog .title {
@@ -426,13 +535,70 @@ span.description a {
   margin-bottom: 20px;
 }
 
-#cv a {
-  color: #5fa8e2;
-  text-decoration: none;
+#blog ul {
+  margin: 100px 0 50px 0;
+}
+@media (max-width: 480px) {
+  #blog ul {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  #blog .meta {
+    text-align: left;
+    font-size: 14px;
+  }
+
+  #blog .btn {
+    display: block;
+    width: 100%;
+  }
 }
 
-#cv a:hover {
+#cv {
+  /*background: #1E76BE;*/
+  background: url('https://dl.dropboxusercontent.com/s/dj6ffuz0l85bce7/cv-bg.jpg?dl=0') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#cv h1 {
+  color: white;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-family: proxima-light;
+}
+
+#cv ul li .title {
+  color: white;
+  opacity: 0.3;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#cv ul li .content {
+  color: rgba(255,255,255,0.8);
+  /*opacity: 0.8;*/
+}
+
+#cv ul li a {
+  color: #5fa8e2;
+  color: #fff;
+  text-decoration: none;
+  font-family: proxima-regular;
+  /*opacity: 0.5;*/
+}
+
+#cv ul li a:hover {
   text-decoration: underline;
+  /*text-shadow: 0px 0px 15px white;*/
+}
+
+#cv .btn:hover {
+  background: white;
+  color: #0077B5;
 }
 
 
@@ -481,22 +647,76 @@ span.description a {
   color: white;
 }
 
+.section-title a.linkedin {
+  color: #0077B5;
+  border: 1px solid #0077B5;
+}
+.section-title a.linkedin:hover {
+  background: #0077B5;
+  color: white;
+}
+
+/*#0077B5*/
+
 #git  {
   position: relative;
 }
+
+
 #git .copyright {
   /*position: absolute;*/
   /*bottom: 0;*/
   text-align: center;
   display: block;
   width: 100%;
-  margin-top: 180px;
+  margin-top: 100px;
+  /*color: #fff;*/
 }
+
+
 
 #git .copyright span {
   display: block;
-  font-family: proxima-light;
+  font-family: proxima-regular;
   font-size: 12px;
   margin-bottom: 5px;
-  color: #444;
+  color: #888;
+}
+
+.social-links li {
+  display: inline;
+}
+.social-links li a {
+  font-family: proxima-semibold;
+}
+
+@media (max-width: 480px) {
+  #git .btn {
+    /*display: block;*/
+    /*width: 100%;*/
+    /*text-indent: -9999px; */
+    margin-bottom: 10px;
+    /*border: none;*/
+  }
+  #git .social .btn {
+    border: none;
+    font-size: 0px;
+    padding: 10px;
+  }
+
+  #git .social .btn i {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .desktop {
+    display: none;
+  }
+
+  .social-links li a {
+    padding: 5px 10px;
+    font-size: 20px;
+    /*border: 1px solid white;*/
+  }
 }

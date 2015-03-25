@@ -1,113 +1,481 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Yuri Pratama</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- <link rel="icon" href="favicon.ico"> -->
+  <link rel="icon" href="assets/images/favicon.png" sizes="64x64" type="image/png">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <title>Yuri Pratama : Personal Site</title>
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="fonts/FontAwesome/css/font-awesome.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/fonts/FontAwesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/ihover/src/ihover.css">
 
-        <!-- Add your site or application content here -->
+  <!-- Custom styles for this template -->
+  <link href="assets/css/cover.css" rel="stylesheet">
 
-        <section class="intro">
-            <div class="middle">
-                <div class="brand kerning-8">YURI PRATAMA</div>
-                <div class="desc kerning-4">PIXEL PLAYER • CODE WARRIOR • CREATIVE THINKER</div>
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+
+<body>
+
+    <div class="site-wrapper">
+        <div class="site-wrapper-inner">
+
+          <div class="cover-container">
+
+            <!-- <div class="masthead clearfix">
+                <div class="inner">
+                    <h3 class="masthead-brand">Cover</h3>
+                    <nav>
+                        <ul class="nav masthead-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> -->
+
+    <div class="inner cover intro">
+        <!-- <div class="row-fluid"> -->
+            <div class="col-md-6">
+                <span class="introduction">Hi, my name is <strong>Yuri Pratama</strong></span>
+                <!-- <br> -->
+
+                <span class="description">
+                a pixel-perfection-enthusiast and code warrior.<br>
+                <!-- you can check my latest work <a href="">here</a> <br>
+                or if you interested, feel free to <a href="">contact me</a> -->
+
+                </span>
+
+                <nav>
+                    <ul>
+                        <li><a href="" class="scroll-link" data-id="works">WORKS</a></li>
+                        <li class="separator">•</li>
+                        <li><a href="" class="scroll-link" data-id="cv">SKILLS</a></li>
+                        <li class="separator">•</li>
+                        <li><a href="" class="scroll-link" data-id="cv">EXPERIENCE</a></li>
+                        <li class="separator">•</li>
+                        <li><a href="" class="scroll-link" data-id="blog">BLOG</a></li>
+                        <li class="separator">•</li>
+                        <li><a href="" class="scroll-link" data-id="git">CONTACT</a></li>
+                    </ul>
+                </nav>
+
+                <!-- <span class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-behance"></i></a>
+                    <a href=""><i class="fa fa-github"></i></a>
+                </span> -->
+
             </div>
-            <div class="bottom">
-                <ul>
-                    <li><a href="">LATEST WORK</a></li>
-                    <li class="separator"><a href="">•</a></li>
-                    <li><a href="http://blog.yuripertamax.me">BLOG</a></li>
-                    <li class="separator"><a href="">•</a></li>
-                    <li><a href="http://blog.yuripertamax.me">CONTACT ME</a></li>
-                </ul>
-                <!-- <span class="content kerning-3"> -->
-                    <!-- <i class="fa fa-paper-plane"></i> HELLO@YURIPERTAMAX.ME -->
-                <!-- </span> -->
+            <div class="col-md-6 align-left logo">
+                <img src="assets/images/logo-white.png" alt="">
             </div>
-        </section>
+        <!-- </div> -->
+        <!-- <h1 class="cover-heading">Cover your page.</h1>
+        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+        <p class="lead">
+            <a href="#" class="btn btn-lg btn-default">Learn more</a>
+        </p> -->
+    </div>
 
-        <section id="works">
-            <h1 class="title kerning-8">LATEST WORKS</h1>
-            <table cellpading=0 cellspacing=0>
-                <!-- <tr> -->
-                    <!-- <td class="primary"><img src="images/primary-works.jpg" alt=""></td> -->
-                    <!-- <td class="primary"><img src="images/primary-works.jpg" alt=""></td> -->
-                <!-- </tr> -->
-                <tr>
-                    <td class="primary">C<i class="fa fa-clock-o"></i>MING S<i class="fa fa-clock-o"></i><i class="fa fa-clock-o"></i>N</td>
-                </tr>
-            </table>
-        </section>
+    <div class="mastfoot">
+        <div class="inner">
+            <div class="col-md-6 fit-left">
+            <p>
+            
+            <span>E: <a href="mailto:hello@yuripertamax.me">hello@yuripertamax.me</a></span>
+            <br class="mobile">
 
-        <footer>
-            <div class="bottom">
-                <ul>
-                    <li><a href="mailto:hello@yuripertamax.me"><i class="fa fa-paper-plane"></i> HELLO [AT] YURIPERTAMAX.ME</a></li>
-
-
-                    <br>
-                    <br>
-                    <br>
-
-                    <li><a href="http://behance.net/yuripertamax">DRIBBBLE</a></li>
-                    <li class="separator"><a href="">•</a></li>
-                    <li><a href="http://behance.net/yuripertamax">BEHANCE</a></li>
-                    <li class="separator"><a href="">•</a></li>
-                    <li><a href="htttp://twitter.com/yuripertamax">TWITTER</a></li>
-                    <li class="separator"><a href="">•</a></li>
-                    <li><a href="http://github.com/yuripertamax">GITHUB</a></li>
-                    <li class="separator"><a href="">•</a></li>
-                    <li><a href="http://blog.yuripertamax.me">BLOG</a></li>
-
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-
-                    <li class="copyright">&copy; 2015 YURIPERTAMAX. ALL RIGHTS RESERVED.</li>
-
-                </ul>
-                <!-- <span class="content kerning-3"> -->
-                    <!-- <i class="fa fa-paper-plane"></i> HELLO@YURIPERTAMAX.ME -->
-                <!-- </span> -->
+            <span>P: <a href="skype:yuripertamax?call">(+62)888-551-8-441</a></span>
+            </p>
+            <p>
+            &copy; 2015 <a href="">Yuri Pratama</a>. 
+            <br class="mobile">
+            All Rights Reserved.
+            </p>
             </div>
-        </footer>
+            <div class="col-md-6"></div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
 
-        <!-- Add your site or application content here -->
+</div>
 
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+</div>
+</div>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-    </body>
+
+<div class="site-wrapper">
+        <!-- <div class="site-wrapper-inner"> -->
+          <div class="cover-container">
+
+<div id="works" class="section">
+    <div class="row-fluid">
+        <div class="col-md-5 section-title align-right">
+            <h1>Works & Portfolios</h1>
+            <p>Here is some of my latest works. <br>Sometimes I tried to experiment and make something new in my spare time.
+            <br>
+            My another works also can be view at link below.
+            <br>
+            <ul class="social-links desktop">
+                <li><a class="btn btn-mini dribbble" href="http://dribbble.com/yuripertamax"><i class="fa fa-dribbble"></i> Dribbble</a></li>
+                <li><a class="btn btn-mini behance" href="http://behance.net/yuripertamax"><i class="fa fa-behance"></i> Behance</a></li>
+                <li><a class="btn btn-mini github" href="http://github.com/yuripertamax"><i class="fa fa-github"></i> Github</a></li>
+            </ul>
+            <ul class="social-links mobile">
+                <li><a class="btn btn-mini dribbble" href="http://dribbble.com/yuripertamax"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="btn btn-mini behance" href="http://behance.net/yuripertamax"><i class="fa fa-behance"></i></a></li>
+                <li><a class="btn btn-mini github" href="http://github.com/yuripertamax"><i class="fa fa-github"></i></a></li>
+            </ul>
+            
+            </p>
+        </div>
+        <div class="col-md-6 section-content align-left">
+            <div class="row-fluid">
+
+                <!-- <div class="shot col-md-6 fit">
+                    <img src="assets/images/logo.png" class="img-responsive" alt="Responsive image">
+                </div> -->
+            
+                <div class="shot col-md-6 fit">
+                    <div class="ih-item square effect6 from_top_and_bottom">
+                        <a href="#">
+                            <!-- <div class="img"><img src="assets/images/works-1.png" class="img-responsive" alt="img"></div> -->
+                            <div class="img"><img src="https://dl.dropboxusercontent.com/s/749mzmg0ivn4zq2/300.jpg?dl=0" class="img-responsive" alt="img"></div>
+                            <!-- https://www.dropbox.com/s/749mzmg0ivn4zq2/300.jpg?dl=0 -->
+                            <!-- <div class="img"><img src="https://lh3.googleusercontent.com/bLuenk8YxEdBrlfyYH1QrIPlsuew6Kc4dtruNub3eIBLVSNMgjjC5hvI0PPMJUSODhT-3s0T4RsfiqQ=w1342-h503" class="img-responsive" alt="img"></div> -->
+
+
+                            <div class="info">
+                                <h3>Gyoza Gyodzilla</h3>
+                                <p>Branding, Logo, UI</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="shot col-md-6 fit">
+                    <div class="ih-item square effect6 from_top_and_bottom">
+                        <a href="#">
+                            <!-- <div class="img"><img src="assets/images/works-2.jpg" class="img-responsive" alt="img"></div> -->
+                            <div class="img"><img src="https://dl.dropboxusercontent.com/s/v5bfe8g4eme3njv/300.jpg?dl=0" class="img-responsive" alt="img"></div>
+                            <div class="info">
+                                <h3>Organik.ID</h3>
+                                <p>Branding, UI, UX, App</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row-fluid">
+                <div class="shot col-md-6 fit">
+                    <div class="ih-item square effect6 from_top_and_bottom">
+                        <a href="#">
+                            <!-- <div class="img"><img src="assets/images/works-4.png" class="img-responsive" alt="img"></div> -->
+                            <div class="img"><img src="https://dl.dropboxusercontent.com/s/etdfsbuboyn39kr/300.jpg?dl=0" class="img-responsive" alt="img"></div>
+                            <div class="info">
+                                <h3>Capcin Hero</h3>
+                                <p>Logo, Branding</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="shot col-md-6 fit">
+                    <div class="ih-item square effect6 from_top_and_bottom">
+                        <a href="#">
+                            <!-- <div class="img"><img src="assets/images/works-3.jpg" class="img-responsive" alt="img"></div> -->
+                            <div class="img"><img src="https://dl.dropboxusercontent.com/s/f5lxitpehtaup5x/300.jpg?dl=0" class="img-responsive" alt="img"></div>
+                            <div class="info">
+                                <h3>Smart Soft Studio</h3>
+                                <p>Logo, Branding</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+</div> 
+</div> 
+
+
+
+<div id="cv" class="site-wrapper">
+        <!-- <div class="site-wrapper-inner"> -->
+          <div class="cover-container">
+
+<div class="section">
+    <div class="row-fluid">
+        <div class="col-md-6 section-title align-left" id="skills">
+            <h1>Skills</h1>
+            <ul>
+                <li>
+                    <span class="title">Code</span>
+                    <span class="content">HTML, CSS, Javascript, PHP, Ruby, NodeJS, Angular, Git, MongoDB</span>
+                </li>
+                <li>
+                    <span class="title">Design</span>
+                    <span class="content">User Interface, User Experience, Layout, Print, Typography, Logo</span>
+                </li>
+                <li>
+                    <span class="title">Development</span>
+                    <span class="content">Website, Web Application, Mobile App</span>
+                </li>
+                <li>
+                    <span class="title">Tools</span>
+                    <span class="content">PS, AI, ID, Corel, Sublime Text, Evernote, Github</span>
+                </li>
+                <!-- <li>
+                    <span class="title">Music</span> -->
+                    <!-- <span class="content">I also involved with a muse-tribute-band called Eratosans</span> -->
+                    <!-- <span class="content">Guitar, Piano</span> -->
+                <!-- </li> -->
+                
+            </ul>
+
+        </div>
+        <div class="col-md-6 section-title align-left" id="exp">
+            <br class="mobile">
+            <br class="mobile">
+            <h1>Experience</h1>
+            <ul>
+                <li>
+                    <span class="title">2009</span>
+                    <span class="content">Student at <a href="http://ub.ac.id">Brawijaya University</a></span>
+                </li>
+                <li>
+                    <span class="title">2012</span>
+                    <span class="content">Founder of <a href="http://noesantara.us">noesantara.us</a> (unfortunately this project no longer maintained and discontinued, maybe someday I can continue develop it again)</span>
+                </li>
+                <li>
+                    <span class="title">2013 - Mid 2014</span>
+                    <span class="content">Front End & Back End Developer at <a href="http://cendana2000.com">Cendana Teknika Utama</a> and have an opportunity to develop some apps for <a href="http://www.garuda-indonesia.com">Garuda Indonesia Airlines</a></span>
+                </li>
+                <li>
+                    <span class="title">Mid 2014 - NOW</span>
+                    <span class="content">Developer & Senior UI/UX Designer and Analyst at <a href="http://travelcar.co.id">travelcar.co.id</a></span>
+                    <span class="content">Marketing and Designer at <a href="http://instagram.com/gyodzilla">Gyodzilla Japanese Shumai</a></span>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+        <div class="row-fluid">
+        <br>
+        <br>
+            <a href="https://www.linkedin.com/profile/view?id=268588733" class="btn btn-mini linkedin"><i class="fa fa-linkedin"></i> Visit My Linkedin Profile</a>
+            <br class="mobile">
+            <br class="mobile">
+            <a href="" class="btn btn-mini disabled" disabled><i class="fa fa-download"></i> Download My Curriculum Vitae PDF</a>
+        </div>
+    </div>
+</div>
+
+</div> 
+</div>
+
+
+
+
+
+
+
+
+<div id="blog" class="site-wrapper">
+        <!-- <div class="site-wrapper-inner"> -->
+          <div class="cover-container">
+
+<div class="section">
+    <div class="row-fluid">
+        
+        <div class="col-md-12 section-title align-left">
+            <span class="col-md-3"></span>
+            <span class="col-md-9 align-left">
+            <h1>Latest Blog Entry</h1>
+            </span>
+            <div class="clearfix"></div>
+            <ul>
+                <li>
+                    <span class="col-md-3 fit-left">
+                        <span class="meta">Oct 29, 2012</span>
+                    </span>
+                    <span class="col-md-9">
+                        <span class="title">Simple Terminal Based FTP Client Using PHP FTP Class</span>
+                        <span class="content">Here is an example of the use of PHP Socket Class and FTP Class on the PHP Programming Language</span>
+                    </span>
+                    <div class="clearfix"></div>
+                </li>
+                <li>
+                    <span class="col-md-3 fit-left">
+                        <span class="meta">Aug 25, 2012</span>
+                    </span>
+                    <span class="col-md-9">
+                        <span class="title">Client Server File Transfer Using Ruby Socket</span>
+                        <span class="content">Socket Class is one class of Ruby Programming Language used to implement the programming socket</span>
+                    </span>
+                    <div class="clearfix"></div>
+                </li>
+                <!-- <li>
+                    <span class="col-md-3 align-right">
+                        <span class="meta">2012, December 31</span>
+                    </span>
+                    <span class="col-md-9">
+                        <span class="title">How IxD/UI/UX designers introduce themselves</span>
+                        <span class="content">short way to capture what you do to some random strangers at parties</span>
+                    </span>
+                    <div class="clearfix"></div>
+                </li> -->
+            </ul>
+            <div class="row-fluid">
+                <div class="col-md-3"></div>
+                <div class="col-md-9 fit-left">
+                    <a href="http://blog.yuripertamax.me" class="btn btn-mini btn-yuri">Read my blog <i class="fa fa-long-arrow-right"></i></a>
+                    <!-- <a href="" class="btn btn-mini medium">Another entry on Medium!</a> -->
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+</div> 
+</div>
+
+
+
+
+
+
+<div class="site-wrapper" style="background: #222;">
+        <!-- <div class="site-wrapper-inner"> -->
+          <div class="cover-container">
+
+<div id="git" class="section">
+    <div class="row-fluid">
+        
+        <div class="col-md-12 section-title">
+            <h1 style="color: white">Are you interested?
+            <br class="mobile"> 
+            <br class="mobile"> 
+            Get in touch with me ;)</h1>
+
+            <div class="row-fluid">
+                <br>
+                <br>
+                <a href="mailto:hello@yuripertamax.me" class="btn btn-lg btn-yuri"><i class="fa fa-paper-plane email"></i> hello@yuripertamax.me</a>
+                <br>
+                <br>
+                <br>
+                <div class="social">
+                    
+                <a href="http//twitter.com/yuripertamax" class="btn btn-mini twitter"><i class="fa fa-twitter"></i> Twitter</a>
+                <a href="http//facebook.com/yuripertamax" class="btn btn-mini facebook"><i class="fa fa-facebook"></i> Facebook</a>
+                <a href="skype:yuripertamax?userprofile" class="btn btn-mini skype"><i class="fa fa-skype"></i> Skype</a>
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="copyright">
+    <img src="https://dl.dropboxusercontent.com/s/z1dl3pfplxdjy6b/logo-white.png?dl=0" style="width: 50px; opacity: 0.1; z-index: 9999" alt=""/>
+    <!-- https://www.dropbox.com/s/z1dl3pfplxdjy6b/logo-white.png?dl=0 -->
+    <br>
+    <br>
+    <!-- <br> -->
+    <br>
+    <br>
+        <span>Made in small and peaceful city – <br class="mobile"><a  data-toggle="tooltip" data-placement="top" title="View in Google Maps" href="https://goo.gl/maps/o1kUx"><i class="fa fa-map-marker"></i> Malang, Indonesia</a> – with <i class='fa fa-heart' style="color: red"></i></span>
+        <br class="mobile">
+        <span>Credit to <a href="http://getbootstrap.com">Bootstrap</a> and <a href="http://fortawesome.github.io/Font-Awesome/">FontAwesome</a></span>
+    <br>
+    <br>
+        <span>E: hello@yuripertamax.me P: (+62)888-551-8-441</span>
+        <span>© 2015 Yuri Pratama. All Rights Reserved.</span>
+    </div>  
+</div>
+
+</div> 
+</div>
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src=".assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript">
+$(document).ready(function() {
+
+    $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+    // navigation click actions 
+    $('.scroll-link').on('click', function(event){
+        event.preventDefault();
+        var sectionID = $(this).attr("data-id");
+        scrollToID('#' + sectionID, 750);
+    });
+    // scroll to top action
+    $('.scroll-top').on('click', function(event) {
+        event.preventDefault();
+        $('html, body').animate({scrollTop:0}, 'slow');         
+    });
+    // mobile nav toggle
+    $('#nav-toggle').on('click', function (event) {
+        event.preventDefault();
+        $('#main-nav').toggleClass("open");
+    });
+});
+// scroll function
+function scrollToID(id, speed){
+    var offSet = 0;
+    var targetOffset = $(id).offset().top - offSet;
+    var mainNav = $('#main-nav');
+    $('html,body').animate({scrollTop:targetOffset}, speed);
+    if (mainNav.hasClass("open")) {
+        mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+        mainNav.removeClass("open");
+    }
+}
+if (typeof console === "undefined") {
+    console = {
+        log: function() { }
+    };
+}
+
+
+
+</script>
+<script src="assets/js/bootstrap.min.js"></script>
+</body>
 </html>
