@@ -218,7 +218,8 @@ body {
 }
 
 body {
-  background: url('https://dl.dropboxusercontent.com/s/qico9s1b6npyr0n/cover-bg.jpg?dl=0') no-repeat center center; 
+	
+  background: url('https://dl.dropboxusercontent.com/s/vst9z6yt5kr1bpc/cover-bg.jpg') no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -556,7 +557,7 @@ span.description a {
 
 #cv {
   /*background: #1E76BE;*/
-  background: url('https://dl.dropboxusercontent.com/s/dj6ffuz0l85bce7/cv-bg.jpg?dl=0') no-repeat center center; 
+  background: url('https://dl.dropboxusercontent.com/s/xsi31heghq8xeoq/cv-bg.jpg?dl=0') no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
